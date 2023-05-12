@@ -1,0 +1,26 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Todo List  Swagger",
+        "description": "test",
+        "contact": {},
+        "version": "1.2"
+    },
+    "paths": {
+        "/api/user/get-user": {
+            "get": {
+                "description": "get user info",
+                "consumes": ["application/json"],
+                "produces": ["application/json"],
+                "response": {
+                    "200": {
+                        "description": "OK"
+                    },
+                    "404": {
+                        "description": "not found"
+                    }
+                }
+            }
+        }
+    }
+}
